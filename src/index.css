@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
+* {
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+.cards{
+  margin-top: 10px;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.jumbo, #heroText {
+
+  margin-top: 10px;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+h3, h4 {
+  text-align: center;
+}
+
+.bottom {
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .bird {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .bird, .population{
+  display: none;
+  }
+}
